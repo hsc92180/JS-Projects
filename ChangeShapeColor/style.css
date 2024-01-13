@@ -1,0 +1,32 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#main div:not(:first-child){
+    padding: 3px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#colorArea{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: cyan;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shapeArea{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
