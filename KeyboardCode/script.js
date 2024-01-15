@@ -51,6 +51,7 @@ document.addEventListener("keydown", (e) => {
   KEYCODE.innerText = e.keyCode;
 });
 
+
 document.addEventListener("keyup", (event) => {
   delete keysPressed[event.key];
 });
