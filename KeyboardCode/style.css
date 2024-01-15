@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #926aa666;
+  }
+  .container {
+    width: 50%;
+    height: 40%;
+    background-color: #001f3fd4;
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .key-box {
+    padding: 4.5% 7%;
+    border-radius: 0.7rem;
+    background-color: #001f3f;
+    display: flex;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  .keyCode-box {
+    margin-top: 1rem;
+    background-color: #001f3f;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 4.5% 7%;
+    border-radius: 0.7rem;
+  }
+  .key-box span {
+    color: green;
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .keyValue {
+    text-shadow: 2px 2px 5px #f516e2;
+  }
+  
+  #keycode {
+    color: green;
+  }
+  
+  .note span {
+    color: red;
+  }
+  
+  .note p {
+    margin-top: 7rem;
+    color: #001f3f;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 5px red;
+  }

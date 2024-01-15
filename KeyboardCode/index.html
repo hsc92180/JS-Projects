@@ -1,16 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generating the Keyboard Code</title>
-</head>
-<body>
-    <div>
-        <h1>You Pressed <span style="color: green;" id="keyName"></span></h1>
-    </div>
-    <h1 id="keyNumber" style="color: green;"></h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/security.png" />
+    <title>Generating the keyboard Code</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="key-box" class="key-box">
+        <p id="statement" class="keyValue">Please Enter Keyboard Key &nbsp;</p>
+        <span id="key"> </span>
+      </div>
+      <div class="keyCode-box">
+        <p id="keycode">-</p>
+      </div>
 
-    <script src="script.js"></script>
-</body>
+      <audio id="audio" controls style="display: none">
+        <source src="./assets/sms1.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="audio1" controls style="display: none">
+        <source
+          src="./assets/Message Recieved Notification.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+      <audio id="audio2" controls style="display: none">
+        <source src="./assets/aud.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="audio3" controls style="display: none">
+        <source
+          src="./assets/Samsung - Notification Tone.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+      <audio id="audio4" controls style="display: none">
+        <source src="./assets/pro.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+
+    <div class="note">
+      <p>
+        <span>Note : </span>
+        Sound on keypress key of combinations only ctrl + z, ctrl + c, ctrl + x,
+        ctrl + v, ctrl + d
+      </p>
+    </div>
+  </body>
 </html>
