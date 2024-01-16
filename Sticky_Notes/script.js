@@ -40,7 +40,7 @@ function removeStickyNotes(){
 
 function makeStickyNotes(text, color){
     let div = document.createElement("div");
-    div.innerHTML = `<p style="width: 98%; color: white; font-weight: medium;">${text}</p><button class="btn2" style=" background-color: red; color: white;">X</button`;
+    div.innerHTML = `<p style="width: 98%; color: white; font-weight: medium;">${text}</p><button class="btn2" style=" background-color: red; color: white; border-radius: 5px; ">X</button`;
     div.style.backgroundColor = color;
     div.style.margin = '20px';
     div.style.padding = '5px';
