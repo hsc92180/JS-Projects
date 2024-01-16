@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main" style="display: flex;">
+    <div class="main">
         <div class="leftContainer">
             
-            <div class="color-and-text" style="align-items: center;">
-                <textarea name="" id="textarea" rows="10" cols="60" ></textarea>
+            <div class="color-and-text">
+                <textarea name="" id="textarea" rows="10" cols="60" placeholder="write a note here"></textarea>
                 
-                <div class="color"><input type="color" style="align-items: center;" value= #90EE90>
+                <div class="color"><input type="color" value= #90EE90>
                 </div>
             </div>
             <div class="buttons"><button class="btn">Add note</button></div>
         </div>
         <div class="rightContainer">
-            <h1> Your Notes</h1>
+            <h1 class="heading"> Your Notes</h1>
             <div class="rightContainerNotes"></div>
             <span class="notesNotAdded">
                 <p>
