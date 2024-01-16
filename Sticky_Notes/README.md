@@ -7,4 +7,4 @@ manage and organize your notes easily and efficiently. You can add new notes in 
 ## [Hosted Link!](https://hsc92180.github.io/JS-Projects/Sticky_Notes/)
 
 
-
+![Alt text](image.png)
