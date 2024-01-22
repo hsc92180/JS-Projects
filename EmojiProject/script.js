@@ -12,6 +12,8 @@ const autoSearch = e=>{
     displaySearchResults(value);
 }
 
+
+
 const displaySearchResults = (searchQuery = "") =>{
     const filtered = emojiList.filter(e=>{
         if(e.description.indexOf(searchQuery) != -1){
