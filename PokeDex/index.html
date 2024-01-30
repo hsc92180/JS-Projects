@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>PokeMon</title>
+        
+    </head>
+    <body>
+        <div class="content-wrapper">
+            <header>
+                <h1>PokeMon</h1>
+            </header>
+            <main>
+                <form id="pokemon-type-filter" >
+                    <select name="type" class="type-filter" id="format">
+                        <option value="" class="format-change">Types</option>
+                    </select>
+                    <input type="submit" class="format-change" value="Filter by Type"/>
+                    
+                    <button onClick="window.location.reload();"  class="format-change">Reset</button>
+                </form>
+                <form id="pokemon-search-form" class="" action="" method="GET">
+                    <input id="pokemon-search-input" class="format-change" type="text" name="" placeholder="Enter Pokémon Name"/>
+                </form>
+                <section class="form-spacers"></section>
+                <section id="pokedex">
+                </section>
+            </main>  
+        </div>
+        <script defer src="script.js"></script>
+    </body>
+</html>
